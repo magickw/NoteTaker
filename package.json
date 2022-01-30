@@ -4,11 +4,23 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Baofeng Guo",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magickw/notetaker.git"
+  },
+  "keywords": [
+    "express.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/magickw/notetaker/issues"
+  },
+  "homepage": "https://github.com/magickw/notetaker#readme"
 }
