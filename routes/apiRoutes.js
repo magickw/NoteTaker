@@ -1,5 +1,6 @@
 //Dependencies
 const fs = require('fs');
+//uuid is used to create random id
 const { v4: uuidv4 } = require('uuid');
 
 // LOAD DATA

@@ -10,6 +10,7 @@ This application allows you to write notes, save notes and deletes that are bein
 - [Description](#description)
 - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
+- [Usage](#usage)
 - [Deployed Link](#deployed-link)
 - [Demo](#demo)
 - [Built With](#built-with)
@@ -28,6 +29,13 @@ And then run the following commands to install the dependencies:
 `npm install inquirer`
 
 `npm install express`
+
+## Usage
+Type the following command in your termimal:
+
+`node server.js`
+
+Then open your browser and type http://localhost:3000/ to run this application on your local machine.
 
 
 ## Deployed Link
