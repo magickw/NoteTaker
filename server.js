@@ -9,6 +9,8 @@ const app = express();
 
 // Middleware for parsing JSON and urlencoded form data
 // Sets up the Express app to handle data parsing
+// express.urlencoded() is a method inbuilt in express to recognize the incoming Request Object as strings or arrays. 
+// This method is called as a middleware in your application using the code: app.use(express.urlencoded());
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
