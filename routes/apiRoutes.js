@@ -6,7 +6,7 @@ const { v4: uuidv4 } = require('uuid');
 // We are linking our routes to a series of "data" sources.
 // These data sources hold arrays of information on notes
 
-const db = require("../db/db.json");
+let db = require("../db/db.json");
 
 //Routing
 module.exports = (app) => {
