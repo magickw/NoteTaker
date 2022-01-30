@@ -4,7 +4,7 @@
 ![badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
-This is a command-line application that runs with Node.js to create a simple webpage featuring your development team's roster.
+This is application allows you to write notes and save notes.
 
 ## Table of Contents
 - [Description](#description)
@@ -19,11 +19,13 @@ This is a command-line application that runs with Node.js to create a simple web
 - [Questions](#questions)
 
 ## Installation
-`git clone` the repo to your local machine. To use this application, please run the following commands:
+`git clone` the repo to your local machine. To use this application, please run the following command:
 
 `npm init` -- creates a package.json file for your application.
-And then run the following command to install the dependencies 
+
+And then run the following commands to install the dependencies: 
 `npm install inquirer`
+
 `npm install express`
 
 
