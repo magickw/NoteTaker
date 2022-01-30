@@ -34,13 +34,13 @@ And then run the following commands to install the dependencies:
 
 ## Demo
 Please click <a href="#">here</a> or visit my <a href="#">Youtube channel</a> for video in higher definitions.
-<img src="#" alt="demo" />
+<img src="demo/demo.gif" alt="demo" />
 
-Screenshot of output html:
-<img src="#" alt="screenshot" />
+Screenshot of homepage:
+<img src="demo/homepage.png" alt="homepage" />
 
-Screenshot of test results:
-<img src="demo/test.png" alt="screenshot" />
+Screenshot of notes taking webpage:
+<img src="demo/notes.png" alt="notes" />
 
 **[⬆ back to top](#table-of-contents)**
 

@@ -2,16 +2,20 @@
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 
-let db = require("../db/db.json");
+// LOAD DATA
+// We are linking our routes to a series of "data" sources.
+// These data sources hold arrays of information on notes
+
+const db = require("../db/db.json");
 
 //Routing
 module.exports = (app) => {
-
+     // API GET Requests
     //get saved notes
     app.get("/api/notes", function (req,res){
         res.json(db);
     });
-
+    // API POST Requests
     //post new notes
     app.post("/api/notes", function (req,res){
         const myNote = req.body;
