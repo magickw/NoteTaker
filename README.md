@@ -4,7 +4,7 @@
 ![badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
-This is application allows you to write notes and save notes.
+This application allows you to write notes, save notes and deletes that are being stored in a db.json file. It runs on node and uses express.js to route all the get, post and delete methods. This application is deployed through Heroku.
 
 ## Table of Contents
 - [Description](#description)
