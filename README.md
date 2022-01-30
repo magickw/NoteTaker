@@ -10,7 +10,7 @@ This application allows you to write notes, save notes and deletes that are bein
 - [Description](#description)
 - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Deployed Link](#deployed-link)
 - [Demo](#demo)
 - [Built With](#built-with)
 - [License](#license)
@@ -24,13 +24,14 @@ This application allows you to write notes, save notes and deletes that are bein
 `npm init` -- creates a package.json file for your application.
 
 And then run the following commands to install the dependencies: 
+
 `npm install inquirer`
 
 `npm install express`
 
 
-## Usage
-#
+## Deployed Link
+The link to the deployed application is: https://fathomless-springs-32270.herokuapp.com/.
 
 ## Demo
 Please click <a href="#">here</a> or visit my <a href="#">Youtube channel</a> for video in higher definitions.
