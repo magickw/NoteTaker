@@ -35,7 +35,7 @@ module.exports = (app) => {
         db = db.filter((notes, index)=>{
             return myNoteId !== notes.id;
         });
-        //JSON.stringify(value, replacer, space), maximum value is 10
+        //JSON.stringify(value, replacer, space), maximum space value is 10
         fs.writeFile("db/db.json", JSON.stringify(db, null, 2), (err)=>{
             if (err) throw err;
         });
