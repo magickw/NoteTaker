@@ -23,7 +23,7 @@ module.exports = (app) => {
         myNote.id = uuidv4(myNote.id);
         db.push(myNote);
         //post the notes to db.json and then json.stringify
-        fs.writeFile("db/db.json", JSON.stringify(db), (err)=>{
+        fs.writeFile("db/db.json", JSON.stringify(db, null, 2), (err)=>{
             if (err) throw err;
         });
         
@@ -37,7 +37,7 @@ module.exports = (app) => {
             return myNoteId !== notes.id;
         });
 
-        fs.writeFile("db/db.json", JSON.stringify(db), (err)=>{
+        fs.writeFile("db/db.json", JSON.stringify(db, null, 2), (err)=>{
             if (err) throw err;
         });
 
