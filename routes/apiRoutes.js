@@ -13,12 +13,10 @@ let db = require("../db/db.json");
 module.exports = (app) => {
      // API GET Requests
     //get saved notes
-    app.get("/api/notes", function (req,res){
-        res.json(db);
-    });
+    app.get("/api/notes", (req,res) => res.json(db));
     // API POST Requests
     //post new notes
-    app.post("/api/notes", function (req,res){
+    app.post("/api/notes", (req,res) => {
         const newNote = req.body;
         newNote.id = uuidv4(newNote.id);
         db.push(newNote);
@@ -31,7 +29,7 @@ module.exports = (app) => {
     });
   
     //delete notes
-    app.delete("/api/notes/:id", function (req,res){
+    app.delete("/api/notes/:id", (req,res) => {
         const myNoteId = req.params.id;
         //delete the note with matching ID
         db = db.filter((notes, index)=>{
