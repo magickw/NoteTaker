@@ -33,10 +33,11 @@ module.exports = (app) => {
     //delete notes
     app.delete("/api/notes/:id", function (req,res){
         const myNoteId = req.params.id;
+        //delete the note with matching ID
         db = db.filter((notes, index)=>{
             return myNoteId !== notes.id;
         });
-
+        //JSON.stringify(value, replacer, space), maximum value is 10
         fs.writeFile("db/db.json", JSON.stringify(db, null, 2), (err)=>{
             if (err) throw err;
         });
