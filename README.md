@@ -39,7 +39,7 @@ Then open your browser and type http://localhost:3000/ to run this application o
 
 
 ## Deployed Link
-The link to the deployed application is: https://note-taker-bfguo.herokuapp/.
+The link to the deployed application is: https://note-taker-bfguo.herokuapp.com.
 
 ## Demo
 Below is the demostration of this application:
