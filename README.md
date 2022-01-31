@@ -42,7 +42,7 @@ Then open your browser and type http://localhost:3000/ to run this application o
 The link to the deployed application is: https://fathomless-springs-32270.herokuapp.com/.
 
 ## Demo
-Please click <a href="#">here</a> or visit my <a href="#">Youtube channel</a> for video in higher definitions.
+Below is the demostration of this application:
 <img src="demo/demo.gif" alt="demo" />
 
 Screenshot of homepage:
